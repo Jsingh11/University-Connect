@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -60,7 +61,7 @@ span.psw {
 
 <center><h2>University Connect Login</h2></center>
 
-<form action="login.html" method="post">
+<form action="homepage.html" method="post">
 
   <div class="container">
       <center>
@@ -75,8 +76,18 @@ span.psw {
     <button type="submit">Login</button>
    </center>
   </div>
+ 
+    <script>
 
+
+if (psw === "admin" || uname === "admin") 
+{
+    window.location.replace("homepage.html");
     
+
+}
+</script>
+
 </form>
 
 </body>
